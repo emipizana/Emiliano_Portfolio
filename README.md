@@ -1,7 +1,7 @@
 # Emiliano_Portfolio
 Data science projects
 
-# [](https://github.com/emipizana/Project-1)
+# [Project-1](https://github.com/emipizana/Project-1)
 The purpose of this project is to predict the revenue of a restaurant around the world. In this case the prediction will depend on the restaurants open date, location, city type and several other variables.
 
 ## Methods Used
@@ -19,4 +19,4 @@ The purpose of this project is to predict if a passenger survived the sinking of
 * Machine Learning
 * Logistic Regression
 
-![Rplot2](https://github.com/emipizana/Emiliano_Portfolio/blob/main/images/Rplot05.png)
+![](https://github.com/emipizana/Emiliano_Portfolio/blob/main/images/Rplot05.png)
