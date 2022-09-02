@@ -9,7 +9,7 @@ The purpose of this project is to predict the revenue of a restaurant around the
 * Random Forest
 * Multiple Regression
 
-![](https://github.com/emipizana/Emiliano_Portfolio/blob/main/images/Rplot02.png)
+![](/images/Rplot02.png)
 
 # [Project-2](https://github.com/emipizana/Project-2)
 The purpose of this project is to predict if a passenger survived the sinking of the Titanic or not. In this case the prediction will be a binary variable that indicates if the passenger survived. 
@@ -19,4 +19,4 @@ The purpose of this project is to predict if a passenger survived the sinking of
 * Machine Learning
 * Logistic Regression
 
-![](https://github.com/emipizana/Emiliano_Portfolio/blob/main/images/Rplot05.png)
+![](/images/Rplot05.png)
