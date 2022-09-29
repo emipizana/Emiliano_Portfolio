@@ -20,3 +20,17 @@ The purpose of this project is to predict if a passenger survived the sinking of
 * Logistic Regression
 
 ![](/images/Rplot05.png)
+
+
+# [Project-3](https://github.com/emipizana/Project_3)
+In this project we read some data from https://www.fao.org/faostat/en/#data, representing the urban, rural, male, female and total population from several conuntries around the world. After data visualization and a summary we start by using a time serie to predict china´s urban population and compare it to a linear regression.
+
+![](/images/China_population.png)
+
+## Methods Used
+* Data Visualization
+* Time series
+* Linear Regression
+
+![](/images/TS_China_pred.png)
+
