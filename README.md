@@ -36,4 +36,26 @@ In this project we read some data from https://www.fao.org/faostat/en/#data, rep
 
 
 # [Project-4](https://github.com/emipizana/Project_4)
-In this project we take the MNIST dataset 
+In this project we take the MNIST database of handwritten digits, it has a training set of 60,000 examples, and a test set of 10,000. The images can be seen as:
+
+![](/images/Four_image)
+
+The objective of the project is to be able to predict the numbers that are handwritten in the test data. Our first two models are binary classifiers, SGDClassifier and Random Forest build to predict if each image is a 4. 
+## Methods Used
+* SGDCLassifier
+* Random Forest
+* Cross Validation 
+* Metrics (Precision and recall score, ROC score)
+
+After that we use KNN Classifier (multiple classifier) to predict the number of each image.
+
+## F1 score using different K values (k as the n_neighbors). 
+![](/images/KNN_Classifier.png)
+
+## Confusion Matrix for the KNN Classifier
+![](/images/Conf_matrix)
+* More than 97% accuracy with k = 3. 
+
+## Methods Used
+* KNN Classifier
+
