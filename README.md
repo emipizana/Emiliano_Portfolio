@@ -58,4 +58,9 @@ After that we use KNN Classifier (multiple classifier) to predict the number of 
 
 ## Methods Used
 * KNN Classifier
+* * Cross Validation 
+* Metrics (Precision and recall score, ROC score, F1 score)
+
+## Project based on
+Géron, A. (2022, November 15). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (3rd ed.). O’Reilly Media.
 
