@@ -58,7 +58,7 @@ After that we use KNN Classifier (multiple classifier) to predict the number of 
 
 ## Methods Used
 * KNN Classifier
-* * Cross Validation 
+* Cross Validation 
 * Metrics (Precision and recall score, ROC score, F1 score)
 
 ## Project based on
