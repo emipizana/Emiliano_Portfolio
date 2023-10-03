@@ -1,34 +1,48 @@
 # Emiliano_Portfolio
 Data science projects
 
-# [Project-Image_Classification]([https://github.com/emipizana/Project-1](https://github.com/emipizana/Image_Classification/tree/main)
+# [Project-Image_Classification](https://github.com/emipizana/Project-1](https://github.com/emipizana/Image_Classification/tree/main)
+
+##Objective
 The point of the project is to classify images. First we have several images like the ones below.
+
 ![](/images/Ejemplo_1.jpg)
 ![](/images/Ejemplo_2.jpg)
+
 We have seven types of bills €5, €10, €20, €50, €100, €200, and €500. The data is divided in train and test data, the goal is to classify the bills as well as we can.
+
+##Approach
 Most of the time you need several layers to build a strong neural network, so for this project we used two different Convolutional Neural Networks already builded in the Keras library. The first one is the ResNet50 and the second one is the VGG16, after importing them we changed the output layer to have an output of the seven classes we need.
 
+##ResNet50
 For the ResNet50 we had:
 Total params:23,602,055
 Trainable params: 14,343
 Non-trainable params: 23,587.712
 Accuracy per Epoch:
 ![](/images/ACC_RESNET.jpg)
+
 Loss per Epoch:
 ![](/images/LOSS_RESNET.jpg)
 
+
+##VGG16
 For the VGG16 we had:
 Total params:134.289.223
 Trainable params: 28,679
 Non-trainable params: 134,260,544
 Accuracy per Epoch:
 ![](/images/ACC_VGG16.jpg)
+
 Loss per Epoch:
 ![](/images/LOSS_VGG16.jpg)
+
 
 We can see in the next image how the bills are classified.
 ![](/images/PREDICTION_VGG.jpg)
 
+
+##Conclusion
 Finally using the test data, the accuracy of both models were:
 ResNet50: .5714
 VGG16: .9857
