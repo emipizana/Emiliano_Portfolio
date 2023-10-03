@@ -18,14 +18,15 @@ Most of the time you need several layers to build a strong neural network, so fo
 
 ## ResNet50
 
-For the ResNet50 we had:
-Total params:23,602,055
-Trainable params: 14,343
-Non-trainable params: 23,587.712
-Accuracy per Epoch:
+<p> For the ResNet50 we had:<br>
+<p> Total params:23,602,055<br>
+<p> Trainable params: 14,343<br>
+<p> Non-trainable params: 23,587.712 <br>
+<p> Accuracy per Epoch: <\p> 
+  
 ![](/images/ACC_RESNET.jpg)
 
-Loss per Epoch:
+Loss per Epoch:<br>
 ![](/images/LOSS_RESNET.jpg)
 
 
