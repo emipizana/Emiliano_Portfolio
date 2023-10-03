@@ -11,6 +11,11 @@ The point of the project is to classify images. First we have several images lik
 ![](/images/Ejemplo_2.jpg)
 
 We have seven types of bills €5, €10, €20, €50, €100, €200, and €500. The data is divided in train and test data, the goal is to classify the bills as well as we can.
+## Method used
+
+* Python
+* Keras
+* Convolutional Neural Network
 
 ## Approach
 
@@ -55,9 +60,11 @@ Finally using the test data, the accuracy of both models were:<br>
 * VGG16: .9857<br>
 We can conclude that the Neural Network VGG16 was much better!!
 
+## Reference
+IBM DL0320EN Applied Deep Learning Capstone Project
 
 
-# [Project-1](https://github.com/emipizana/Project-1)
+# [Project-2](https://github.com/emipizana/Project-1)
 The purpose of this project is to predict the revenue of a restaurant around the world. In this case the prediction will depend on the restaurants open date, location, city type and several other variables.
 
 ## Methods Used
@@ -67,7 +74,7 @@ The purpose of this project is to predict the revenue of a restaurant around the
 
 ![](/images/Rplot02.png)
 
-# [Project-2](https://github.com/emipizana/Project-2)
+# [Project-3](https://github.com/emipizana/Project-2)
 The purpose of this project is to predict if a passenger survived the sinking of the Titanic or not. In this case the prediction will be a binary variable that indicates if the passenger survived. 
 
 ## Methods Used
@@ -78,7 +85,7 @@ The purpose of this project is to predict if a passenger survived the sinking of
 ![](/images/Rplot05.png)
 
 
-# [Project-3](https://github.com/emipizana/Project_3)
+# [Project-4](https://github.com/emipizana/Project_3)
 In this project we read some data from https://www.fao.org/faostat/en/#data, representing the urban, rural, male, female and total population from several conuntries around the world. After data visualization and a summary we start by using a time serie to predict china´s urban population and compare it to a linear regression.
 
 ![](/images/China_population.png)
@@ -91,7 +98,7 @@ In this project we read some data from https://www.fao.org/faostat/en/#data, rep
 ![](/images/TS_China_pred.png)
 
 
-# [Project-4](https://github.com/emipizana/Project_4)
+# [Project-5](https://github.com/emipizana/Project_4)
 In this project we take the MNIST database of handwritten digits, it has a training set of 60,000 examples, and a test set of 10,000. The images can be seen as:
 
 ![](/images/Four_image)
