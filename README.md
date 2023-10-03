@@ -1,7 +1,7 @@
 # Emiliano_Portfolio
 Data science projects
 
-# [Project-Image_Classification](https://github.com/emipizana/Project-1](https://github.com/emipizana/Image_Classification/tree/main)
+# [Project-Image_Classification](https://github.com/emipizana/Image_Classification/tree/main)
 
 ##Objective
 The point of the project is to classify images. First we have several images like the ones below.
