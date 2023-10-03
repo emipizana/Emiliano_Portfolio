@@ -18,7 +18,7 @@ Most of the time you need several layers to build a strong neural network, so fo
 
 ## ResNet50
 
-* For the ResNet50 we had:<br>
+For the ResNet50 we had:<br>
 * Total params:23,602,055<br>
 * Trainable params: 14,343<br>
 * Non-trainable params: 23,587.712 <br>
@@ -44,6 +44,7 @@ Loss per Epoch:<br>
 
 
 We can see in the next image how the bills are classified.
+
 ![](/images/PREDICTION_VGG.jpg)
 
 
