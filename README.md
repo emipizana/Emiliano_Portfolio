@@ -22,7 +22,7 @@ Most of the time you need several layers to build a strong neural network, so fo
 <p> Total params:23,602,055<br>
 <p> Trainable params: 14,343<br>
 <p> Non-trainable params: 23,587.712 <br>
-<p> Accuracy per Epoch: <\p> 
+<p> Accuracy per Epoch: 
   
 ![](/images/ACC_RESNET.jpg)
 
@@ -32,14 +32,14 @@ Loss per Epoch:<br>
 
 ## VGG16
 
-For the VGG16 we had:
-Total params:134.289.223
-Trainable params: 28,679
-Non-trainable params: 134,260,544
-Accuracy per Epoch:
+For the VGG16 we had:<br>
+Total params:134.289.223<br>
+Trainable params: 28,679<br>
+Non-trainable params: 134,260,544<br>
+Accuracy per Epoch:<br>
 ![](/images/ACC_VGG16.jpg)
 
-Loss per Epoch:
+Loss per Epoch:<br>
 ![](/images/LOSS_VGG16.jpg)
 
 
@@ -49,9 +49,9 @@ We can see in the next image how the bills are classified.
 
 ## Conclusion
 
-Finally using the test data, the accuracy of both models were:
-ResNet50: .5714
-VGG16: .9857
+Finally using the test data, the accuracy of both models were:<br>
+ResNet50: .5714<br>
+VGG16: .9857<br>
 We can conclude that the Neural Network VGG16 was much better!!
 
 
