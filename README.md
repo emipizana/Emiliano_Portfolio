@@ -4,6 +4,7 @@ Data science projects
 # [Project-Image_Classification](https://github.com/emipizana/Image_Classification/tree/main)
 
 ## Objective
+
 The point of the project is to classify images. First we have several images like the ones below.
 
 ![](/images/Ejemplo_1.jpg)
@@ -16,6 +17,7 @@ We have seven types of bills €5, €10, €20, €50, €100, €200, and €5
 Most of the time you need several layers to build a strong neural network, so for this project we used two different Convolutional Neural Networks already builded in the Keras library. The first one is the ResNet50 and the second one is the VGG16, after importing them we changed the output layer to have an output of the seven classes we need.
 
 ## ResNet50
+
 For the ResNet50 we had:
 Total params:23,602,055
 Trainable params: 14,343
@@ -28,6 +30,7 @@ Loss per Epoch:
 
 
 ## VGG16
+
 For the VGG16 we had:
 Total params:134.289.223
 Trainable params: 28,679
@@ -44,6 +47,7 @@ We can see in the next image how the bills are classified.
 
 
 ## Conclusion
+
 Finally using the test data, the accuracy of both models were:
 ResNet50: .5714
 VGG16: .9857
