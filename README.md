@@ -1,5 +1,45 @@
 # Emiliano Portfolio
 Data science projects
+# [Project Tweet Classification](https://github.com/emipizana/Project-Tweet-Classification)
+
+## Objective
+
+Twitter has become an important communication channel in times of emergency. We have several tweets and the point is predicting whether a given tweet is about a real disaster or not. We will classify disaster tweets as 1, and non-disaster tweets as 0.
+Here are some examples of the tweets we have to classify,
+
+![](/images/Tweet_examples.jpeg)
+
+Here we have the first 5 rows of our training data frame,
+![](/images/tweet_images.JPG)
+
+## Method used
+
+* Python
+* Keras
+* RNN
+* BERT model for NLP
+
+## Approach
+
+For this project we builded one simple Recurrent neural network to classify tweets and then we compared the results against the BERT model uploaded from keras. We can see how the BERT model performs much better but it is also computationally more expensive.
+
+## First RNN
+
+we managed an accuracy of 73.93% of accuracy over 20 epochs. Now we can see the accuracy and loss per epoch,
+
+![](/images/Net_1_acc.JPG)
+![](/images/Net_1_loss.JPG)
+
+It is clear that this RNN is not a good model for this data, and there are a lot of things to improve in how to build a stronger RNN.
+
+##BERT model
+
+For the BERT model we managed a 83.06% of accuracy over 4 epochs. We can see the accuracy and loss per epoch,
+
+![](/images/Net_2_acc.JPG)
+![](/images/Net_2_loss.JPG)
+
+This model was computational expensive so we tried it with just 4 epoches. It was for sure a better fit to classify the tweets, however, there are several things we can improve, especially the hyperparameters. 
 
 # [Project Image-Classification](https://github.com/emipizana/Image_Classification/tree/main)
 
