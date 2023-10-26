@@ -1,7 +1,7 @@
-# Emiliano_Portfolio
+# Emiliano Portfolio
 Data science projects
 
-# [Project-Image_Classification](https://github.com/emipizana/Image_Classification/tree/main)
+# [Project Image-Classification](https://github.com/emipizana/Image_Classification/tree/main)
 
 ## Objective
 
