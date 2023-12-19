@@ -1,5 +1,20 @@
 # Emiliano Portfolio
-Data science projects
+Machine Learning and Data science projects
+
+# [Project Nueral Network from Scratch](https://github.com/emipizana/Neural-Network-from-Scratch)
+
+## Objective
+
+The objective of the project is to build a Neural Network only using NumPy and Pandas. Pandas is mainly used for reading data, in this case we are using the MNIST dataset. The main point of the project was to focus on the theory of the Neural Network more than handling a diffucult dataset and hyperparameter tunning. Finally, we also imported matplotlib for plotting the images and Keras to import the MNIST dataset. The project is divided in two, the first part is the Neural Network from scratch, while the second part is building a neural network using keras with the same architecture as the one before. Finally, we compare both results to see how well is the "manual" neural network works. 
+
+#MNIST Data Set
+
+We have our data set divided by X_train and X_test with shapes (60000,784) and (10000, 784) respectively. And the target data divided by Y_train and Y_test with shapes of (60000,) and (10000,) respetively. The next image is an example from the train data set. 
+
+![](/images/Correct_classification.png)
+
+
+![](/images/Accuracy_test_data.JPG)
 
 # [Project Image-Classification](https://github.com/emipizana/Image_Classification/tree/main)
 
