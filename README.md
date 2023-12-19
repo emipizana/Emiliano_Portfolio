@@ -7,14 +7,45 @@ Machine Learning and Data science projects
 
 The objective of the project is to build a Neural Network only using NumPy and Pandas. Pandas is mainly used for reading data, in this case we are using the MNIST dataset. The main point of the project was to focus on the theory of the Neural Network more than handling a diffucult dataset and hyperparameter tunning. Finally, we also imported matplotlib for plotting the images and Keras to import the MNIST dataset. The project is divided in two, the first part is the Neural Network from scratch, while the second part is building a neural network using keras with the same architecture as the one before. Finally, we compare both results to see how well is the "manual" neural network works. 
 
-#MNIST Data Set
+## MNIST Data Set
 
-We have our data set divided by X_train and X_test with shapes (60000,784) and (10000, 784) respectively. And the target data divided by Y_train and Y_test with shapes of (60000,) and (10000,) respetively. The next image is an example from the train data set. 
+We have our data set divided by X_train and X_test with shapes (60000, 28, 28) and (10000, 28, 28) respectively, in which each observation is a image with 28x28 pixels. The target data divided by Y_train and Y_test with shapes of (60000,) and (10000,) respetively. The next image is an example from the train data set. 
 
 ![](/images/Correct_classification.png)
 
+## Architecture of the Nueral Network.
 
+## Accuracy and training on Train Data set
+![](/images/Train_accuracy.JPG)
+
+For this Neural Network we manage to get:
 ![](/images/Accuracy_test_data.JPG)
+
+## Misclassify images:
+![](/images/Miss_Classify_1.JPG)
+![](/images/Miss_Classify_2.JPG)
+![](/images/Miss_Classify_3.JPG)
+
+We can see above three examples of misclassify images, most of them are not that clear, and can even be misclassified by humans. 
+
+## Neural Network with Keras
+
+For the Neural Network using keras we used the same architecture but the training was different, we used:
+Optimizer: Adam
+Loss function: Categorical Crossentropy
+Batch Size: 32
+
+![](/images/keras_model.JPG)
+
+## Training and accuracy
+
+![](/images/5_epochs_keras_train.JPG)
+![](/images/Accuracy_graph_keras.JPG)
+
+We manage an accuracy of:
+![](/images/accuracy_keras_test.JPG)
+
+
 
 # [Project Image-Classification](https://github.com/emipizana/Image_Classification/tree/main)
 
