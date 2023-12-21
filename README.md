@@ -28,12 +28,13 @@ For this Neural Network we manage to get:
 ![](/images/Miss_Classify_2.JPG)
 ![](/images/Miss_Classify_3.JPG)
 
+We can see above three examples of misclassify images, most of them are not that clear, and can even be misclassified by humans.
+
 ## Confusion Matrix
 This was the only part that we used sklearn
 
 ![](/images/Confusion_matrix_NN_1.JPG)
 
-We can see above three examples of misclassify images, most of them are not that clear, and can even be misclassified by humans. 
 
 ## Neural Network with Keras
 
@@ -53,6 +54,11 @@ We manage an accuracy of:
 
 ![](/images/accuracy_keras_test.JPG)
 
+## Conclusion
+
+To begin with, when constructing a neural network from the ground up, there are various factors to take into account in order to make the model more robust. For example, we can modify the loss function to categorical crossentropy, opt for a more efficient optimization method beyond gradient descent, utilize batches instead of passing through the entire dataset, and cautiously incorporate additional hidden layers without overfitting.
+
+The primary emphasis of the project was to gain a deeply understanding of neural network concepts, particularly the backward function. Despite this focus, we achieved a robust model with an accuracy exceeding 91%. While the Keras model had a higher accuracy, surpassing 97%, our model still performed admirably with a notably high accuracy level.
 
 
 # [Project Image-Classification](https://github.com/emipizana/Image_Classification/tree/main)
