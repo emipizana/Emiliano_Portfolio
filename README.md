@@ -14,11 +14,13 @@ We have our data set divided by X_train and X_test with shapes (60000, 28, 28) a
 ![](/images/Correct_classification.png)
 
 ## Architecture of the Nueral Network.
+![](/images/NN_Architecture.jpg)
 
 ## Accuracy and training on Train Data set
 ![](/images/Train_accuracy.JPG)
 
 For this Neural Network we manage to get:
+
 ![](/images/Accuracy_test_data.JPG)
 
 ## Misclassify images:
@@ -26,14 +28,19 @@ For this Neural Network we manage to get:
 ![](/images/Miss_Classify_2.JPG)
 ![](/images/Miss_Classify_3.JPG)
 
+## Confusion Matrix
+This was the only part that we used sklearn
+
+![](/images/Confusion_matrix_NN_1.JPG)
+
 We can see above three examples of misclassify images, most of them are not that clear, and can even be misclassified by humans. 
 
 ## Neural Network with Keras
 
 For the Neural Network using keras we used the same architecture but the training was different, we used:
-Optimizer: Adam
-Loss function: Categorical Crossentropy
-Batch Size: 32
+* Optimizer: Adam
+* Loss function: Categorical Crossentropy
+* Batch Size: 32
 
 ![](/images/keras_model.JPG)
 
@@ -43,6 +50,7 @@ Batch Size: 32
 ![](/images/Accuracy_graph_keras.JPG)
 
 We manage an accuracy of:
+
 ![](/images/accuracy_keras_test.JPG)
 
 
