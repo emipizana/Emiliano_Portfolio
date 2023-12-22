@@ -144,7 +144,7 @@ Here we have the first 5 rows of our training data frame,
 * Python
 * Keras
 * RNN
-* BERT model for NLP
+* BERT Embedding for NLP
 
 ## Approach
 
