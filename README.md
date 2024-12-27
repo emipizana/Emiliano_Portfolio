@@ -1,7 +1,12 @@
 # Emiliano Portfolio
 Machine Learning and Data science projects
 
+
 # [Project 1: Nueral Network from Scratch](https://github.com/emipizana/Neural-Network-from-Scratch)
+
+
+
+# [Project 2: Nueral Network from Scratch](https://github.com/emipizana/Neural-Network-from-Scratch)
 
 ## Objective
 
@@ -64,7 +69,7 @@ The primary emphasis of the project was to gain a deeply understanding of neural
 
 Aflak, O. (2018, November 14). Neural Network from scratch in Python. Towards Data Science. https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65
 
-# [Project 2: Image-Classification](https://github.com/emipizana/Image_Classification/tree/main)
+# [Project 3: Image-Classification](https://github.com/emipizana/Image_Classification/tree/main)
 
 ## Objective
 
@@ -127,7 +132,7 @@ We can conclude that the Neural Network VGG16 was much better!!
 IBM DL0320EN Applied Deep Learning Capstone Project
 
 
-# [Project 3: Tweet Classification](https://github.com/emipizana/Project-Tweet-Classification)
+# [Project 4: Tweet Classification](https://github.com/emipizana/Project-Tweet-Classification)
 
 ## Objective
 
@@ -170,7 +175,7 @@ This model was computational expensive so we tried it with just 4 epoches. It wa
 
 
 
-# [Project 4: Restaurant predicting sales](https://github.com/emipizana/Project-1)
+# [Project 5: Restaurant predicting sales](https://github.com/emipizana/Project-1)
 The purpose of this project is to predict the revenue of a restaurant around the world. In this case the prediction will depend on the restaurants open date, location, city type and several other variables.
 
 ## Methods Used
@@ -180,7 +185,7 @@ The purpose of this project is to predict the revenue of a restaurant around the
 
 ![](/images/Rplot02.png)
 
-# [Project 5: Predicting Titanic survivors](https://github.com/emipizana/Project-2)
+# [Project 6: Predicting Titanic survivors](https://github.com/emipizana/Project-2)
 The purpose of this project is to predict if a passenger survived the sinking of the Titanic or not. In this case the prediction will be a binary variable that indicates if the passenger survived. 
 
 ## Methods Used
@@ -191,7 +196,7 @@ The purpose of this project is to predict if a passenger survived the sinking of
 ![](/images/Rplot05.png)
 
 
-# [Project 6: Population Prediction](https://github.com/emipizana/Project_3)
+# [Project 7: Population Prediction](https://github.com/emipizana/Project_3)
 In this project we read some data from https://www.fao.org/faostat/en/#data, representing the urban, rural, male, female and total population from several conuntries around the world. After data visualization and a summary we start by using a time serie to predict china´s urban population and compare it to a linear regression.
 
 ![](/images/China_population.png)
