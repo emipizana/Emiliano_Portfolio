@@ -2,8 +2,46 @@
 Machine Learning and Data science projects
 
 
-# [Project 1: Nueral Network from Scratch](https://github.com/emipizana/Neural-Network-from-Scratch)
+# [Project 1: Tennis Match Analysis](https://github.com/emipizana/projectCV/tree/FinalBranch)
 
+## 📁 Project Structure
+
+```
+tennis_analysis/
+├── src/
+│   └── tennis_analysis/
+│       ├── downloader/      # Video downloading
+│       ├── preprocessor/    # Point segmentation
+│       ├── tracking/        # Ball and player tracking
+│       ├── projector/       # Court Projector of minimap
+│       └── postprocessing/  # Visualization
+├── models/                  # Pre-trained models
+├── examples/               # Usage examples
+└── tests/                 # Test suite
+```
+## 🔧 Pipeline Steps
+
+1. **Download**: Downloads the tennis match video, optionally selecting a specific segment
+2. **Preprocessing**: 
+   - Segments the video into individual points
+   - Detects scene changes
+   - Validates point durations and characteristics
+3. **Tracking**:
+   - Tracks the ball using YOLO with trajectory prediction
+   - Tracks and identifies players
+   - Handles occlusions and missed detections
+4. **Postprocessing**:
+   - Generates visualization overlays
+   - Creates analysis summaries
+   - Exports processed videos
+
+## 📊 Output
+
+The framework generates:
+1. **Points Directory**: Individual video clips for each tennis point
+2. **Tracked Points**: Processed videos with ball and player tracking visualization
+3. **Analysis Data**: JSON files containing tracking data and statistics
+4. **Visualizations**: Optional plotting of trajectories and statistics
 
 
 # [Project 2: Nueral Network from Scratch](https://github.com/emipizana/Neural-Network-from-Scratch)
