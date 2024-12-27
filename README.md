@@ -48,6 +48,8 @@ The framework generates:
 3. **Analysis Data**: JSON files containing tracking data and statistics
 4. **Visualizations**: Optional plotting of trajectories and statistics
 
+![](/images/Tennis_Example_picture.png)
+
 
 # [Project 2: Nueral Network from Scratch](https://github.com/emipizana/Neural-Network-from-Scratch)
 
